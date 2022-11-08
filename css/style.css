@@ -49,7 +49,6 @@ body{
     font-size: 24px;
     color: #FFFFFF;
     text-align: center;
-    font-family: 'Pretendard-Regular';
     font-weight: 700;
 }
 .line{
@@ -64,6 +63,20 @@ body{
 .time{
     display: flex;
     justify-content: space-evenly;
+}
+.time-words{
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    color: #A5B6EE;
+}
+.time-boxes{
+    flex-direction: column;
+
+}
+.time-words{
+    display: flex;
+    justify-content: space-between;
 }
 .each-box{
     width: 80px;
